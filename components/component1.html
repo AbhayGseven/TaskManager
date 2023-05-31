@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="../favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	
+		<link href="../_app/immutable/assets/0.60d532bd.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Indicator.1d121e74.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.bc022a0e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.b0c9f513.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.f329c372.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.f230d159.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.85fa9aab.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/3.d7133edc.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Indicator.svelte_svelte_type_style_lang.fb195251.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/SidebarWrapper.14a75dd8.js">
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">
+
+
+<div class="text-center"><button type="button" class="text-center font-medium focus:ring-4 focus:outline-none inline-flex items-center justify-center px-5 py-2.5 text-sm text-white bg-primary-700 hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 focus:ring-primary-300 dark:focus:ring-primary-800 rounded-lg">Show navigation</button>
+
+</div>
+  
+
+
+  <h1>Hello Test-1
+    
+    </h1>
+
+
+			
+			<script>
+				{
+					__sveltekit_1nc9dnh = {
+						base: new URL("..", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("../_app/immutable/entry/start.bc022a0e.js"),
+						import("../_app/immutable/entry/app.f230d159.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+</body>
+<script>
+	// Import the functions you need from the SDKs you need
+	import { initializeApp } from "firebase/app";
+	import { getAnalytics } from "firebase/analytics";
+	// TODO: Add SDKs for Firebase products that you want to use
+	// https://firebase.google.com/docs/web/setup#available-libraries
+
+	// Your web app's Firebase configuration
+	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	const firebaseConfig = {
+		apiKey: "AIzaSyDfM2HpyJJhO867B3IhrSN25qVtiUPD7IU",
+		authDomain: "taskmanager-711e2.firebaseapp.com",
+		projectId: "taskmanager-711e2",
+		storageBucket: "taskmanager-711e2.appspot.com",
+		messagingSenderId: "806379840282",
+		appId: "1:806379840282:web:bff528fae46d07893242a3",
+		measurementId: "G-2BK5EGKDMF"
+	};
+
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+	const analytics = getAnalytics(app);
+</script>
+
+</html>
